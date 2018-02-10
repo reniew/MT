@@ -3,6 +3,8 @@
     <color name="colorPrimary">#212D38</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#F2D169</color>
+
+    <!--Folding color-->
     <color name="bgBackSideColor">#f4f0ff</color>
     <color name="bgTitleLeft">#594691</color>
     <color name="bgTitleRight">#ffffff</color>
@@ -14,4 +16,13 @@
     <color name="titleBadgeText">#adafb1</color>
     <color name="mainTextColor">#343d43</color>
     <color name="btnRequest">#ffbf12</color>
+
+    <!--Guillotine Color-->
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+
+
+
 </resources>
