@@ -5,12 +5,13 @@ android {
     buildToolsVersion "26.0.3"
     defaultConfig {
         applicationId "com.example.junghyun.mt"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -28,4 +29,10 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile 'com.ramotion.foldingcell:folding-cell:1.2.1'
+}
+
+dependencies{
+    //페이지 인디케이터
+    compile 'com.romandanylyk:pageindicatorview:1.0.0'
+    
 }
