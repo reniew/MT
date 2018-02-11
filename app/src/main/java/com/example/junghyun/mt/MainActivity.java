@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setTitle(null);
         }
 
-
-
         View guillotineMenu = LayoutInflater.from(this).inflate(R.layout.guillotine, null);
         root.addView(guillotineMenu);
 
@@ -56,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         //Guillotine end
 
 
+        //Folding start
         // get our list view
         ListView theListView = (ListView) findViewById(R.id.mainListView);
 
@@ -94,6 +93,6 @@ public class MainActivity extends AppCompatActivity {
                 adapter.registerToggle(pos);
             }
         });
-
+        //Folding end
     }
 }
